@@ -1,37 +1,136 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #ffffff url("../img/fundo.png");
-    background-repeat: repeat-x;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #ffffff url("../img/fundo.png");
+  background-repeat: repeat-x;
 }
-#container{
-    width: 750px;
-    margin: 0px auto;
+#container {
+  width: 750px;
+  margin: 0px auto;
 }
-#topo{
-    height: 150px;
-    background: url("../img/detalhe-topo.png")no-repeat right top;
-    padding-top: 25px;
+#topo {
+  height: 150px;
+  background: url("../img/Infinity_gauntlet_render_glowing_stones_by_awesomeness360-dcbkqgz.webp")
+    no-repeat right top;
+  padding-top: 25px;
 }
-#topo header{
+
+#topo ul {
+  background-color: blue;
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  margin-top: 55px;
+  border-radius: 20px;
 }
-#topo ul{
-    background-color: red;
-    display: flex;
-    align-items: end;
-    justify-content: space-evenly;
-    margin-top: 55px;   
-    border-radius: 20px;
+#topo ul li {
+  padding: 5px;
 }
-#topo ul li{
-    padding: 5px;
+#topo ul li a {
+  color: #ffffff;
 }
-#topo ul li a{
-    color: #ffffff;
+main {
+  margin-top: 100px;
+  display: flex;
+}
+main section {
+  margin-right: 25px;
+}
+main .entrevistas {
+  width: 30%;
+}
+main .entrevistas h3,
+.noticiasMain h3 {
+  background-color: blue;
+  padding: 5px;
+  color: white;
+}
+main .entrevistas ul {
+  border: 1px solid gray;
+}
+main .entrevistas ul li {
+  margin: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.cadastro label {
+  margin-top: 10px;
+}
+.cadastro input {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+.cadastro button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+.noticiasMain {
+  display: flex;
+}
+.containerNoticia {
+  margin-right: 10px;
+  border: 1px solid gray;
+  padding: 7px;
+  height: auto;
+}
+.containerNoticia h3 {
+  margin-bottom: 5px;
+}
+.containerNoticia img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.containerNoticia a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+  font-weight: 800;
+}
+.containerMundo {
+  margin-top: 10px;
+}
+.containerMundo img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+.containerMundo li {
+  display: flex;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+}
+.containerMundo li h4 {
+  color: blue;
+}
+.text {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
