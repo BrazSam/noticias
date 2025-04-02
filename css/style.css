@@ -8,7 +8,7 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #ffffff url("../img/fundo.png");
-    background-repeat: repeat-x;
+    background-repeat: repeat-x;    
 }
 #container{
     width: 750px;
@@ -26,12 +26,51 @@ body{
     display: flex;
     align-items: end;
     justify-content: space-evenly;
-    margin-top: 55px;   
+    margin-top: 55px;
     border-radius: 20px;
+}
+header ul li:hover{
+    background-color: #7c0a08;
+    border-radius: 12px;
+    transition: 0.6s;
 }
 #topo ul li{
     padding: 5px;
 }
 #topo ul li a{
     color: #ffffff;
+}
+main .entrevistas h3{
+    background-color: #294c71;
+    color: white;
+}
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 60px;
+}
+#primaria{
+    margin-top: 100px;
+    width: 270;
+    float: left;
+    
+}
+#secundaria{
+    width: 270;
+    float: left;
+    margin-top: 100px;
+
+}
+#lateral{
+    width: 180px;
+    float: left;
+    margin-top: 100px;
+}
+footer{
+    background: #294c71;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
